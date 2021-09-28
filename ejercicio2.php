@@ -8,12 +8,16 @@
 </head>
 <body>
     <?php
-
-        $triangulo = (5 * 5)/2;
-        $cuadrado = 25 * 25;
-        $rombo = (10 * 5)/2;
+        $base = 5;
+        $altura = 5;
+        $Dmayor= 10;
+        $Dmenor= 5;
+        $radio= 5; 
+        $triangulo = ($base * $altura)/2;
+        $cuadrado = $base * $altura;
+        $rombo = ($Dmayor * $Dmenor)/2;
         define("PI", 3.14);
-        $circulo = PI * 5 * 5;
+        $circulo = PI * $radio * $radio;
 
         printf("<p>");
         printf("El circulo de radio 5cm tiene un área de %d", $circulo);
@@ -24,7 +28,7 @@
         printf("</p>");
 
         printf("<p>");
-        printf("El cuadrado de lado 25cm tiene un área de %d", $cuadrado);
+        printf("El cuadrado de lado 5cm tiene un área de %d", $cuadrado);
         printf("</p>");
 
         printf("<p>");
