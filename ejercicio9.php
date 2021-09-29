@@ -37,7 +37,6 @@
         mostrar();
         echo $var1 . '<br/>';
         mostrar();
-        mostrar();
     ?>
 </body>
 
